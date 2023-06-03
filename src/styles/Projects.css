@@ -1,0 +1,146 @@
+.Projects_box{
+    height: 100vh;
+    display: flex;
+    width: 100%;
+}
+.Projects_box .projects_internal{
+    margin: 50px 80px 0px 80px;
+    width: calc(100vw - 160px);
+    display: flex;
+    flex-direction: row;
+}
+.Projects_box .projects_internal .left{
+    flex-basis: 30%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+.Projects_box .projects_internal .left .text_box{
+    margin: 0;
+    margin-top: 50px;
+}
+.Projects_box .projects_internal .left .text_box .services_text{
+    margin: 5px 0 ;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: rgb(200, 0, 0);
+}
+.Projects_box .projects_internal .left .text_box .bold_text{
+    margin: 10px 0; 
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight:lighter;
+}
+.Projects_box .projects_internal .left .text_box .bold_text span{
+    font-weight: bold ;
+    color: rgb(150, 150, 150);
+}
+
+.Projects_box .projects_internal .left .text_box .small_text{
+    margin: 10px 0; 
+    font-size: 13px;
+}
+
+
+
+.Projects_box .projects_internal .right{
+    flex-basis: 70%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-basis: column;
+    justify-content: center;
+}
+.Projects_box .right .column{
+    transform: rotate(3deg);
+}
+
+/* .Projects_box .right .column .row{
+    
+} */
+
+.Projects_box .projects_internal .right .column .row .project_item{
+    width: 200px;
+    background-color: rgb(240, 240, 240);
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10PX;
+    align-items: center;
+    margin: 20px 10px;
+    /* transform: rotate(3deg); */
+}
+
+.Projects_box  .row .project_item .icon_box{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(200, 200, 200);
+    border-radius: 10PX;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+    margin-top: 50px;
+
+}
+
+.Projects_box  .row .project_item .icon_box img{
+    width: 40px;
+    max-width: 40px;
+}
+
+.Projects_box  .row .project_item  h4{
+    width: 180px;
+    margin: 10px 0;
+    text-align: center;
+    font-size: 16px;
+}
+
+.Projects_box  .row .project_item  p{
+    margin: 10px 0;
+    font-size: 13px;
+    width: 180px;
+    text-align: center;
+    margin-bottom: auto;
+}
+
+
+.Projects_box .right .pro_items{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.Projects_box  .right .pro_item{
+    width: 220px;
+    height: 280px;
+    background-color: rgb(240, 240, 240);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.Projects_box  .right .pro_item img{
+    width: 220px;
+    height: 280px;
+    border-radius: 10px;
+}
+.Projects_box .right .pro_item h1{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(100, 100, 100);
+    color: white;
+    font-size: 15px;
+    padding: 5px 0 ;
+    text-align: center;
+    margin: 0;
+    border-radius: 0px 0px 10px 10px ;
+}

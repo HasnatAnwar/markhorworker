@@ -1,0 +1,119 @@
+.Contact_box{
+    height: 100vh;
+    display: flex;
+    width: 100%;
+}
+.Contact_box .contact_internal{
+    margin: 50px 80px 0px 80px;
+    width: calc(100vw - 160px);
+    display: flex;
+    flex-direction: row;
+}
+.Contact_box .contact_internal .left{
+    flex-basis: 50%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+.Contact_box .contact_internal .left .text_box{
+    margin: 0;
+    margin-top: 50px;
+    margin-right: 100px;
+}
+.Contact_box .contact_internal .left .text_box .services_text{
+    margin: 5px 0 ;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: rgb(200, 0, 0);
+}
+.Contact_box .contact_internal .left .text_box .bold_text{
+    margin: 10px 0; 
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight:lighter;
+}
+.Contact_box .contact_internal .left .text_box .bold_text span{
+    font-weight: bold ;
+    color: rgb(150, 150, 150);
+}
+
+.Contact_box .contact_internal .left .text_box .small_text{
+    margin: 10px 0; 
+    font-size: 13px;
+}
+
+
+
+.Contact_box .contact_internal .right{
+    display: flex;
+    flex-basis: 50%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(240, 240, 240);
+    margin-top: 100px;
+}
+
+.Contact_box .contact_internal .right .contact_form{
+    width: 80%;
+
+}
+.Contact_box .contact_internal .right .contact_form h5{
+    font-size: 25px;
+    margin: 10px;
+    margin-top: 20px;
+    text-align: center;
+    
+
+}
+
+.Contact_box .contact_internal .right .contact_form .name_email {
+    display: inline-flex;
+    width: 100%;    
+    /* background-color: aqua; */
+}
+.Contact_box  .right .contact_form .name_email .contact_name{
+    width: 45%;
+
+}
+.Contact_box  .right .contact_form .name_email .contact_email{
+    width: 45%;
+    margin-left: auto;
+    margin-right: 0;
+
+}
+.Contact_box  .right .contact_form  .contact_subject,
+.Contact_box  .right .contact_form  .contact_compose{
+    width: 100%;
+
+}
+/* .Contact_box .contact_internal .name_email .contact_name{
+    width: 100%;
+} */
+.Contact_box .contact_internal .right .contact_form .contact_name p,
+.Contact_box .contact_internal .right .contact_form .contact_email p,
+.Contact_box  .right .contact_form  .contact_subject p,
+.Contact_box  .right .contact_form  .contact_compose p{
+    font-size: 15px;
+    margin-bottom: 5px;
+    margin-top: 30px;
+}
+.Contact_box .contact_internal .right .contact_form .contact_name input,
+.Contact_box .contact_internal .right .contact_form .contact_email input,
+.Contact_box  .right .contact_form  .contact_subject input,
+.Contact_box  .right .contact_form  .contact_compose textarea
+{
+    background: none;
+    border: none;
+    /* padding-left: 20px; */
+    border-bottom: 1px solid rgb(150, 150, 150);
+    width: 100%;
+}
+.Contact_box  .right .contact_form .submit_btn{
+    font-size: 15;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    background-color: rgb(200, 200, 200);
+    border:none;
+    margin: 20px 0;
+}

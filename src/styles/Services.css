@@ -1,0 +1,108 @@
+.Services_box{
+    height: 100vh;
+    display: flex;
+    width: 100%;
+}
+.Services_box .services_internal{
+    margin: 50px 80px 0px 80px;
+    width: calc(100vw - 160px);
+    display: flex;
+    flex-direction: row;
+}
+.Services_box .services_internal .left{
+    flex-basis: 40%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+.Services_box .services_internal .left .text_box{
+    margin: 0;
+    margin-top: 50px;
+}
+.Services_box .services_internal .left .text_box .services_text{
+    margin: 5px 0 ;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: rgb(200, 0, 0);
+}
+.Services_box .services_internal .left .text_box .bold_text{
+    margin: 10px 0; 
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight:lighter;
+}
+.Services_box .services_internal .left .text_box .bold_text span{
+    font-weight: bold ;
+    color: rgb(150, 150, 150);
+}
+
+.Services_box .services_internal .left .text_box .small_text{
+    margin: 10px 0; 
+    font-size: 13px;
+}
+
+
+
+.Services_box .services_internal .right{
+    flex-basis: 60%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-basis: column;
+    justify-content: center;
+}
+.Services_box .right .column{
+    transform: rotate(3deg);
+}
+
+/* .Services_box .right .column .row{
+    
+} */
+
+.Services_box .services_internal .right .column .row .service_item{
+    width: 200px;
+    background-color: rgb(240, 240, 240);
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10PX;
+    align-items: center;
+    margin: 20px 10px;
+    /* transform: rotate(3deg); */
+}
+
+.Services_box  .row .service_item .icon_box{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(200, 200, 200);
+    border-radius: 10PX;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+    margin-top: 50px;
+
+}
+
+.Services_box  .row .service_item .icon_box img{
+    width: 40px;
+    max-width: 40px;
+}
+
+.Services_box  .row .service_item  h4{
+    width: 180px;
+    margin: 10px 0;
+    text-align: center;
+    font-size: 16px;
+}
+
+.Services_box  .row .service_item  p{
+    margin: 10px 0;
+    font-size: 13px;
+    width: 180px;
+    text-align: center;
+    margin-bottom: auto;
+}
+
+
