@@ -23,7 +23,7 @@ const Contact = () => {
   };
 
   return (
-    <div className='Contact_box'>
+    <div className='Contact_box' id='contact'>
       <div className='contact_internal'>
         <div className="left">
           <div className="text_box">

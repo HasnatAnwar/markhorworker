@@ -4,7 +4,7 @@ import markhorlogo from '../static/images/Markhorblack.png'
 
 const Projects = () => {
   return (
-    <div className='Projects_box'>
+    <div className='Projects_box' id='projects'>
       <div className='projects_internal'>
         <div className="left">
           <div className="text_box">

@@ -5,7 +5,7 @@ import markhorlogo from '../static/images/Markhorblack.png'
 
 const Services = () => {
   return (
-    <div className='Services_box'>
+    <div className='Services_box' id='services'>
       <div className="services_internal">
         <div className="left">
           <div className="text_box">
