@@ -1,10 +1,11 @@
 .Header_box{
     background-color: rgb(250, 250, 250);
-    position: absolute;
+    /* position: absolute; */
     height: 50px;
     width: 100%;
     display: inline-flex;
-    
+    position: fixed;
+    z-index: 1;
 }
 .Header_box .logo_box{
 
