@@ -12,7 +12,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes >
-        <Route path='/' element={
+        <Route path='/markhorworker' element={
           <>
 
             <Header />
@@ -23,21 +23,21 @@ function App() {
             <Contact />
           </>
         } />
-        <Route path='/services' element={
+        <Route path='/markhorworker/services' element={
           <>
 
             <Header />
             <Services />
           </>
         } />
-        <Route path='/projects' element={
+        <Route path='/markhorworker/projects' element={
           <>
 
             <Header />
             <Projects />
           </>
         } />
-                <Route path='/contact' element={
+                <Route path='/markhorworker/contact' element={
           <>
 
             <Header />
