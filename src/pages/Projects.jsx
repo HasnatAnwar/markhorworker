@@ -2,6 +2,15 @@ import React from 'react'
 import '../styles/Projects.css'
 import markhorlogo from '../static/images/Markhorblack.png'
 
+import adsWeb from '../static/images/adsWeb.png'
+import chatWeb from '../static/images/chatWeb.png'
+import foodWeb from '../static/images/foodWeb.png'
+import twitterWeb from '../static/images/twitterWeb.png'
+import youtubeWeb from '../static/images/youtubeWeb.png'
+import rideWeb from '../static/images/rideWeb.png'
+
+
+
 const Projects = () => {
   return (
     <div className='Projects_box' id='projects'>
@@ -10,23 +19,36 @@ const Projects = () => {
           <div className="text_box">
             <p className="services_text">See</p>
             <p className="bold_text">See my <span>Work</span> that surprise you.</p>
-            <p className="small_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi illo accusamus, deserunt laborum eos provident hic blanditiis dolorem, magnam perferendis corrupti, beatae velit vero quos? Magnam rerum aut earum tempore.</p>
+            <p className="small_text">
+              I have been devloping the software application more then two years. I worked on realtime projects and dummy projects some of dummy projects are here to show. 
+            </p>
           </div>
         </div>
         <div className="right">
           <div className='pro_items'>
-          <div className="pro_item">
-              <img src={markhorlogo} alt="" />
-              <h1>Website Development</h1>
-            </div>            <div className="pro_item">
-              <img src={markhorlogo} alt="" />
-              <h1>Website Development</h1>
-            </div>            <div className="pro_item">
-              <img src={markhorlogo} alt="" />
-              <h1>Website Development</h1>
-            </div>            <div className="pro_item">
-              <img src={markhorlogo} alt="" />
-              <h1>Website Development</h1>
+            <div className="pro_item">
+              <img src={youtubeWeb} alt="" />
+              <h1>YouTube Clone</h1>
+            </div>
+            <div className="pro_item">
+              <img src={twitterWeb} alt="" />
+              <h1>Twitter Clone</h1>
+            </div>
+            <div className="pro_item">
+              <img src={chatWeb} alt="" />
+              <h1>Chat App</h1>
+            </div>
+            <div className="pro_item">
+              <img src={adsWeb} alt="" />
+              <h1>Ad Management Tool</h1>
+            </div>
+            <div className="pro_item">
+              <img src={rideWeb} alt="" />
+              <h1>Ride Sharing App</h1>
+            </div>
+            <div className="pro_item">
+              <img src={foodWeb} alt="" />
+              <h1>Food Delivery App</h1>
             </div>
           </div>
 

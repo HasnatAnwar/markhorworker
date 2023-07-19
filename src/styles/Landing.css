@@ -4,9 +4,9 @@
   display: flex;
 }
 
-.landing_internal img {
+/* .landing_internal img {
   width: 300px;
-}
+} */
 
 .Landing_box .landing_internal {
   margin: 50px 80px 0px 80px;
@@ -67,8 +67,14 @@
   border-radius: 20px;
   border: none;
   background-color: rgb(201, 199, 199);
+  cursor: pointer;
 }
 
+.Landing_box .landing_internal .left .text_box .download_btn a{
+  text-decoration: none;
+  color: black;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
 .Landing_box .landing_internal .right {
   flex-basis: 40%;
@@ -78,14 +84,65 @@
   justify-content: center;
 }
 .Landing_box .landing_internal .right .front_img{
-  background-image: url('../static/images/watercolor.png');
+  /* background-image: url('../static/images/watercolor.png'); */
   background-position: center;
   background-size:contain;
   background-repeat: no-repeat;
   width: 100%;
   /* margin-top: 150px; */
-  margin-bottom: 0;
-  margin-top: auto;
+  /* margin-bottom: 0; */
+  /* margin-top: auto; */
   justify-content: center;
   display: flex;
+}
+.Landing_box .landing_internal .right .front_img img{
+  width: 90%;
+}
+@media (max-width:440px ) {
+  .Landing_box{
+    width: 100%;
+
+  }
+  .Landing_box .left{
+    margin-top: 50px;
+  }
+  .Landing_box .landing_internal{
+    flex-direction: column;
+    /* background-color: rgb(190, 162, 125)    ; */
+    width: 100%;
+    margin: 0;
+    width: 100%;
+  }
+  .Landing_box .left{
+    flex-basis: auto;
+    /* background-color: antiquewhite; */
+    height: fit-content;
+    margin: 0;
+    padding: 0;
+  }
+  .Landing_box .right{
+    flex-basis: auto;
+    background-color: aquamarine;
+  }
+  .Landing_box .landing_internal .left .text_box{
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+    margin: 0 10px;
+  }
+  .Landing_box .left .hey_text{
+    font-size: 12px;
+  }
+  .Landing_box .left .name_text{
+    font-size:35px;
+  }
+  .Landing_box .left .free_text{
+    font-size: 15px;
+  }
+  .Landing_box .left .desc_text{
+    font-size: 12px;
+  }
+  /* .Landing_box .right{
+
+  } */
 }

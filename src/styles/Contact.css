@@ -42,6 +42,26 @@
     font-size: 13px;
 }
 
+.Contact_box .left .social_icon{
+    display: inline-flex;
+    margin-top: 30px;
+
+}
+.Contact_box .left .social_icon a{
+    display: inline-flex;
+    margin: 0 10px;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(230, 230, 230);
+
+}
+.Contact_box .left .social_icon a img{
+    width: 35px;
+    height: 35px;
+}
+
 
 
 .Contact_box .contact_internal .right{

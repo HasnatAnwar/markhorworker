@@ -1,11 +1,15 @@
 import React from 'react'
 import '../styles/Contact.css'
 import markhorlogo from '../static/images/Markhorblack.png'
+import fiverr from '../static/images/fiverr.png'
+import freelancer from '../static/images/freeelancer.svg'
+import upwork from '../static/images/upwork.png'
+import github from '../static/images/github.png'
 import emailjs from 'emailjs-com'
 
 
 const Contact = () => {
-  
+
   // function sendEmail(e){
 
   // }
@@ -15,11 +19,11 @@ const Contact = () => {
 
     emailjs.sendForm('service_74y4wl6', 'template_w40g1z2', e.target, 'ik4EMsF4XCr0Z5g9d')
       .then((result) => {
-          console.log(result.text);
+        console.log(result.text);
       }, (error) => {
-          console.log(error.text);
+        console.log(error.text);
       });
-      e.target.reset();
+    e.target.reset();
   };
 
   return (
@@ -28,8 +32,19 @@ const Contact = () => {
         <div className="left">
           <div className="text_box">
             <p className="services_text">Contact Me</p>
-            <p className="bold_text">Lorem ipsum <span>dolor</span> sit amet consectetur.</p>
-            <p className="small_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi illo accusamus, deserunt laborum eos provident hic blanditiis dolorem, magnam perferendis corrupti, beatae velit vero quos? Magnam rerum aut earum tempore.</p>
+            <p className="bold_text">To Get  <span>Help or Hire me</span> Just inbox me.</p>
+            <p className="small_text">
+              I have uploaded my work at github repository. <br />
+              And I am selling my services at these freelancer sites. So please visit them. 
+              
+              </p>
+            <div className="social_icon">
+              <a href="https://github.com/HasnatAnwar"><img src={github} alt="" /></a>
+              <a href="https://www.fiverr.com/markhorworker?up_rollout=true"><img src={fiverr} alt="" /></a>
+              <a href="https://www.freelancer.com/hireme/markhorworker"><img src={freelancer} alt="" /></a>
+              <a href="https://www.upwork.com/freelancers/~01554bb98da4f7ad0f"><img src={upwork} alt="" /></a>
+            </div>
+
           </div>
         </div>
         <div className='right'>
@@ -53,11 +68,11 @@ const Contact = () => {
             <div className='contact_compose'>
               <p>Compose</p>
               {/* <input type="text" name="message" id="" /> */}
-              <textarea  name="message" id="" cols="30" rows="5"></textarea>
+              <textarea name="message" id="" cols="30" rows="5"></textarea>
             </div>
             {/* <button className='submit_btn' type="submit">Send</button> */}
             <input type="submit" className='submit_btn' value='Send Message' />
-            </form>
+          </form>
         </div>
       </div>
 

@@ -1,0 +1,98 @@
+.About_box {
+    height: 100vh;
+    display: flex;
+    width: 100%;
+}
+
+.About_box .about_internal {
+    margin: 50px 80px 0px 80px;
+    width: calc(100vw - 160px);
+    display: flex;
+    flex-direction: row;
+}
+
+.About_box .about_internal .left {
+    flex-basis: 50%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.About_box .about_internal .left .text_box{
+    margin: 0;
+    margin-top: 50px;
+    margin-right: 100px;
+}
+.About_box .about_internal .left .text_box .services_text{
+    margin: 5px 0 ;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: rgb(200, 0, 0);
+}
+.About_box .about_internal .left .text_box .bold_text{
+    margin: 10px 0; 
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight:lighter;
+}
+.About_box .about_internal .left .text_box .bold_text span{
+    font-weight: bold ;
+    color: rgb(150, 150, 150);
+}
+
+.About_box .about_internal .left .text_box .small_text{
+    margin: 10px 0; 
+    font-size: 13px;
+}
+
+.About_box .about_internal .left .text_box .edu_heading{
+    margin: 10px 0; 
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.About_box .about_internal .left .text_box .edu_text{
+    margin: 10px 0; 
+    font-size: 13px;
+}
+
+
+.About_box .about_internal .left .text_box .expertise_tags{
+    margin: 10px 0; 
+
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.About_box .about_internal .left .text_box .expertise_tag{
+    margin: 5px; 
+    font-size: 13px;
+    background-color: rgb(240, 240, 240) ;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+
+.About_box .about_internal .right {
+    flex-basis: 50%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.About_box .about_internal .right .front_img {
+    /* background-image: url('../static/images/watercolor.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat; */
+    width: 100%;
+    /* margin-top: 150px; */
+    /* margin-bottom: 0; */
+    /* margin-top: auto; */
+    justify-content: center;
+    display: flex;
+}
+.About_box .about_internal .right .front_img img{
+    width: 80%;
+}

@@ -12,8 +12,8 @@ const Header = () => {
         <li><a href="/markhorworker/"><span>Home</span></a></li>
         {/* <li><a href="/markhorworker/services"><span>Services</span></a></li> */}
         <li><a href="#services"><span>Services</span></a></li>
-        <li><a href=""><span>About</span></a></li>
         <li><a href="#projects"><span>Work</span></a></li>
+        <li><a href="#about"><span>About</span></a></li>
         <li><a href="#contact"><span>Contact</span></a></li>
         
 
